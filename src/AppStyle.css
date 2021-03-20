@@ -1,0 +1,496 @@
+* {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+}
+
+.App .img-background {
+  position: fixed;
+  background-attachment: fixed;
+  background-size: cover;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.navigation {
+  position: fixed;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  background-color: white;
+  z-index: 2;
+}
+
+.homeButton {
+  float: left;
+  background-image: url("https://i.imgur.com/HM6Nnft.jpg");
+  height: 30px;
+  width: 30px;
+  border-radius: 15%;
+  margin: 0.5%;
+  z-index: inherit;
+}
+
+.navigation ul {
+  display: flex;
+  position: fixed;
+  padding-top: 0.5%;
+  top: 0;
+  right: 3px;
+  margin: 1% 5% 0 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation li {
+  margin: 0 2% 0 2%;
+}
+
+.no-bull {
+  list-style-type: none;
+}
+
+.banner {
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75%;
+  width: 100%;
+  z-index: inherit;
+  background-color: rgba(210, 215, 211, 0.4);
+  text-align: center;
+}
+
+.banner h1 {
+  padding: 2% 0 2% 0;
+  margin: 0 auto;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color:rgb(56,5,0);
+}
+
+.banner h2 {
+  font-size: 1.5rem;
+  color:  rgba(138, 31, 10, 0.9);
+}
+
+.banner p {
+  color: rgb(36,11,0);
+  font-size: 0.85rem;
+}
+
+.banner .img-container {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin: 5px auto;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-right: 0.5%;
+  pointer-events: none;
+}
+
+.banner .sub-header {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 45%;
+  min-width: 15%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.banner .sub-header .first-word {
+  color: rgba(146, 118, 115, 1);
+}
+
+.banner .sub-header .second-word {
+color:rgba(210, 223, 255, 1);
+}
+
+.banner .sub-header .third-word {
+  color: rgba(12, 173, 133, 0.5);
+  }
+
+.container {
+  position: relative;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-bottom: 5%;
+  background-color: rgba(242, 247, 243, 0.9);
+  z-index: inherit;
+}
+
+.languages-logos {
+  display: flex;
+  width: 85%;
+  height: auto;
+  margin: auto 0 auto auto;
+  padding: 0 0 0 auto;
+  background-color: white;
+}
+
+.container h2 {
+  color: rgb(36,11,0);
+
+}
+
+.container li {
+  font-weight: bold;
+  line-height: 1.5rem;
+  padding-bottom: 2%;
+  color: rgb(12, 160, 123);
+}
+
+.web-development {
+  display: flex;
+  flex-direction: row;
+  z-index: inherit;
+}
+
+.col-1 {
+  position: relative;
+  top: 0;
+  display: flex;
+  width: 20%;
+  padding: 0 2% 0 4%;
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 2 200px;
+  z-index: inherit;
+  background-color: white;
+}
+
+/* .languages h2 {
+  color:  rgb(36,11,0);
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+}
+
+.languages .list-heading {
+  display: relative;
+  margin-right: 1px;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: rgba(114, 18, 2, 0.9);
+} */
+
+
+
+
+.row-1 {
+  display: flex;
+  width: 85%;
+  height: 150px;
+  margin: 0 0 auto auto;
+  padding: 0;
+}
+
+.row-1 ul {
+  display: inline-block;
+  flex-flow: row wrap;
+  width: 15%;
+  justify-content: space-around;
+  z-index: inherit;
+}
+
+.row-1 li {
+  font-size: 0.9rem;
+  line-height: 1.1;
+}
+
+.row-4 {
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  z-index: inherit;
+}
+
+.row-2, .row-3, .row-4-cards {
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 2.5%;
+  z-index: inherit;
+}
+
+
+.row-4 h1 {
+  padding-top: 2%;
+  margin: 0 auto;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: rgb(56,5,0);
+}
+
+.row-4-cards .card-body {
+  height: 250px;
+  margin: 5% 2%;
+}
+
+.box-lists {
+  min-height: 300px;
+  width: 100%;
+  margin: 0 1% auto 1%;
+  border: 1px solid rgba(210, 215, 211, 0.8);
+  background-color: teal;
+  border-radius: 20px 0 20px 0;
+  padding: 1% 0;
+  z-index: inherit;
+}
+
+/* .box-lists h1 {
+  color:  rgba(138, 31, 10, 0.9);
+} */
+
+.box-lists li {
+  color: rgb(36,11,0);
+}
+
+.row-2 ul {
+  height: 200px;
+  width: auto;
+  color: whitesmoke;
+  margin: 5%;
+}
+
+.row-2 .box-lists li {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: whitesmoke;
+  margin: 5% 5% 5% 10%;
+}
+
+.row-3 {
+  min-height: 600px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  z-index: inherit;
+}
+.row-4 {
+  min-height: 600px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: inherit;
+}
+
+
+
+
+
+
+
+.Footer {
+  position: relative;
+  top: 45px;
+  padding: 2%;
+  z-index: inherit;
+}
+
+.Contact-form {
+  width: 35vh;
+  z-index: inherit;
+
+}
+
+.Details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  z-index: inherit;
+
+}
+
+.form-element {
+  border: 0.1vh ridge rgba(210, 215, 211, 0.5);
+  width: 100%;
+  
+}
+
+.Message-input {
+  width: 100%;
+}
+
+.Contact, .Message-input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: calc(0.5vmin, 1vmax);
+  color: #517580;
+  text-align: center;
+  border: 0.1vh ridge rgba(210, 215, 211, 0.5);
+}
+
+.Button {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: bold;
+  color: #517580;
+  background: rgba(210, 215, 211, 0.3);
+  border: 0.1vh ridge rgba(210, 215, 211, 0.5);
+}
+
+.no-bull {
+  list-style-type: none;
+}
+
+/* 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+   .App {
+    width: 270px;
+  }
+
+  .WebDevelopment .Div-1 {
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0.7rem;
+  }
+} 
+
+
+  @media only screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+    .page-title {
+      width: 270px;
+    }
+  }
+  @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
+     .gallery-item .thumbnail {
+    width: 95%;
+    border: 2px solid GhostWhite;
+    border-radius: 4px;
+  }
+  }
+  
+  @media only screen and (min-resolution: 150dpi) {
+   .logo {
+    background-image: url("../img/spaceship@2x.png");
+  }
+  }
+  
+  @media only screen and (max-resolution: 150dpi) and (max-width: 480px){
+   .page-description {
+     font-size: 20px;
+   }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .page-title, .page-description {
+    float: left;
+      width: 20em;
+  }
+   
+  .page-description {
+      text-align: left;
+  }
+  }
+ 
+
+  @media only screen and (max-width: 960px) {
+  .main {
+    padding-top: 0;
+  }
+}  */
+/* 
+.competencies .box-lists {
+  background-color: rgba(243, 241, 247, 0.4);
+}
+
+.highlights .box-lists {
+  background-color: rgba(243, 241, 247, 0.6);
+}
+
+.experience .box-lists {
+  background-color: rgba(245, 245, 249, 0.8);
+}
+
+.interests .box-lists {
+  background-color: rgba(248, 248, 253, 0.8);
+} */
+
+
+
+
+/* .other div {
+    height: 400px;
+    width: auto;
+    border: 2px solid white;
+    background-color: white;
+    z-index: inherit;
+  } 
+
+.WebDevelopment .Div-2 {
+  display: flex;
+  flex-direction: column;
+  min-width: 20%;
+  flex: 2 1 300px;
+}
+
+.WebDevelopment .Div-2 .list-heading {
+  color:  #517580;
+}
+.WebDevelopment .Div-2 ul {
+  width: 100%;
+  padding: 2% 0;
+  line-height: 1.5;
+}
+
+.WebDevelopment .Div-2 li {
+  width: 90%;
+  margin: 0 5% 0 10%;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color:rgba(65, 24, 1, 1);
+}
+
+*/
+
+
+/* color: rgb(12, 173, 133); */
+ /* color: rgba(12, 173, 133, 0.9); */
+  /* color: rgb(12, 173, 133); */
+  /* color: rgba(12, 173, 60, 0.9); */
+
+
+
+
+

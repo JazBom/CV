@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+import './AppStyle.css';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+import { Nav } from './Nav';
+import { Banner } from './Banner';
+import { Footer } from './Footer';
+import { Container } from './Container';
+import { WebDevelopment } from './WebDevelopment'
+import { Art } from './Art'
+
+
+  const App = () => {
+    return (
+      <Router>
+        <div className="App">
+        
+        <img src="https://jessicabommerblog.files.wordpress.com/2017/02/original-1.jpg" className="img-background"/>  
+          
+          <Nav/>
+          <Banner/>
+           
+            <Switch>
+
+            <Route exact-path="/home">
+              <Container/>
+            </Route>
+
+            <Route exact-path="/webdevelopment">
+                <WebDevelopment/>
+            </Route>
+
+            <Route exact-path="/art">
+                <Art/>
+            </Route>
+
+          </Switch>
+          <Footer/>
+        </div>
+  
+      </Router>
+          
+    );
+  };
+  
+  export default App;
