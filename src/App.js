@@ -4,7 +4,7 @@ import './AppStyle.css';
 import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faPalette, faEnvelope, faPaperPlane, faPhone, faPhoneAlt, faMobile, faMobileAlt, faFileDownload, faArrowAltCircleDown, faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faPalette, faEnvelope, faPaperPlane, faPhone, faPhoneAlt, faMobile, faMobileAlt, faFileDownload, faArrowAltCircleDown, faArrowDown, faGem, faDatabase } from '@fortawesome/free-solid-svg-icons'
 import {
     BrowserRouter as Router,
     Switch,
@@ -18,7 +18,7 @@ import { Footer } from './components/Footer';
 
 const App = () => {
     
-    library.add(fab, faPalette, faEnvelope, faPaperPlane, faPhone, faPhoneAlt, faMobile, faMobileAlt, faFileDownload, faArrowAltCircleDown, faArrowDown)
+    library.add(fab, faPalette, faEnvelope, faPaperPlane, faPhone, faPhoneAlt, faMobile, faMobileAlt, faFileDownload, faArrowAltCircleDown, faArrowDown, faGem, faDatabase)
 
     return (
       <Router>

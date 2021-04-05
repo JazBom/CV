@@ -20,21 +20,16 @@ const Languages = () => {
 
     <ul className="no-bull">
     
-    <li><FontAwesomeIcon icon={['fab', 'node']} size="1x" color=""/> NodeJS</li> 
-    <li><FontAwesomeIcon icon={['fab', 'express']} size="1x" color=""/> Express</li>   
+    <li><FontAwesomeIcon icon={['fab', 'node']} size="lg" color=""/> NodeJS & Express</li>   
     <li><FontAwesomeIcon icon={['fab', 'parcel']} size="1x" color=""/> Parcel</li>  
-    <li><FontAwesomeIcon icon={['fab', 'homebrew']} size="1x" color=""/> Homebrew</li>    
-
     </ul>
 
     <ul className="no-bull">
     <li><FontAwesomeIcon icon={['fab', 'react']} size="1x" color=""/> ReactJS</li>
-    <li><FontAwesomeIcon icon={['fab', 'jsx']} size="1x" color=""/> JSX</li> 
     </ul>
 
     <ul className="no-bull">  
-    <li><FontAwesomeIcon icon={['fab', 'ruby']} size="1x" color=""/> Ruby</li> 
-    <li><FontAwesomeIcon icon={['fab', 'rails']} size="1x" color=""/> Rails</li>  
+    <li><FontAwesomeIcon icon="gem" size="1x" color=""/> Ruby-on-Rails</li> 
     </ul>
 
      <ul className="no-bull teal">
@@ -43,17 +38,12 @@ const Languages = () => {
     </ul>
 
     <ul className="no-bull">
-    <li><FontAwesomeIcon icon={['fab', 'sql']} size="1x" color=""/> SQL</li>
-    <li><FontAwesomeIcon icon={['fab', 'nosql']} size="1x" color=""/> NOSQL</li>
-    <li><FontAwesomeIcon icon={['fab', 'compass']} size="1x" color=""/> MongoDB</li>
-    <li><FontAwesomeIcon icon={['fab', 'postgres']} size="1x" color=""/> Postgres</li>
+    <li><FontAwesomeIcon icon="database" size="1x" color=""/> SQL & NOSQL</li>
     </ul> 
 
     <ul className="no-bull blue">
     <li><FontAwesomeIcon icon={['fab', 'git']} size="1x" color=""/> Git</li>
     <li><FontAwesomeIcon icon={['fab', 'github']} size="1x" color=""/> Github</li>
-    <li><FontAwesomeIcon icon={['fab', 'fork']} size="1x" color=""/> Fork</li>
-    <li><FontAwesomeIcon icon={['fab', 'bash']} size="1x" color=""/> Bash</li>
     </ul>
 
    

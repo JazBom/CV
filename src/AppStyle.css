@@ -19,7 +19,7 @@
   top: 0;
   right: 0;
   display: block;
-  width: 180%;
+  width: 200%;
   height: auto;
   z-index: -1;
 }
@@ -176,13 +176,14 @@ color:rgba(0,128,128,0.8);
   top: 50px;
   left: 0;
   width: 100%;
-  height: auto;
+  min-height: 840px;
   display: flex;
   flex-direction: column;
   padding-bottom: 5%;
   background-color: rgba(242, 247, 243, 0.9);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  border-bottom: 3px solid darkgoldenrod;
   z-index: inherit;
 }
 
@@ -193,6 +194,7 @@ color:rgba(0,128,128,0.8);
   font-weight: 600;
   line-height: 1.5rem;
   padding-bottom: 2%;
+ 
 }
 
 .languages {
@@ -215,7 +217,7 @@ color:rgba(0,128,128,0.8);
 .row-1 {
   display: flex;
   width: 100%;
-  height: 90px;
+  height: 100px;
   margin: 0 0 auto auto;
   justify-content: space-around;
   border: 3px solid darkgoldenrod;
@@ -358,19 +360,25 @@ color:rgba(0,128,128,0.8);
 
 .Footer {
   position: relative;
-  top: 54px;
+  top: 50px;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
-  padding: 2%;
+  padding: 2% 2% 10% 2%;
   z-index: inherit;
 }
 
 .Footer p {
   display: flex;
+  padding: 0;
+  margin-top: 50px;
   justify-content: center;
   font-weight: 600;
   color: azure;
   font-size: 0.7;
+  
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
 }
 
 .Footer .built-with {
