@@ -23,13 +23,13 @@ class ContactForm extends Component{
             <div className="Contact-form">
 
                 <div className="Details">
-                <button className="Button form-element" onSubmit={this.handleContactFormSubmit}>Contact</button>
+                <button className="Button form-element" onSubmit={this.handleContactFormSubmit}>Contact me</button>
                 <input className="Contact form-element" placeholder="Your name">{this.state.name}</input>
                 <input className="Contact form-element" placeholder=" and email">{this.state.email}</input>
                 </div>
 
                 <div className="Messages">
-                <input className="Message-input" placeholder="... message me!">{this.state.message}</input>
+                <input className="Message-input" placeholder="... write your message here!">{this.state.message}</input>
                 </div>
 
             </div>

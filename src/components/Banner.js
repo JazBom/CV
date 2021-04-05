@@ -17,7 +17,7 @@ const Banner = () => {
                  <p className="third-word">elegant</p>
               </div>
               
-              <h2>Jess Bommer</h2>
+              <h2>Jessica Bommer</h2>
               
               <div className="img-container">
                 <img src="https://i.imgur.com/7oTF4p3.png" alt="photo-of-Jess" />
@@ -25,7 +25,7 @@ const Banner = () => {
             
               
 
-            <h1>Web Developer and Artist</h1>
+            <h1>Web Dev | Artist | Project Manager</h1>
 
             </div>
           

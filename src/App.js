@@ -7,12 +7,10 @@ import {
     Route,
     Link
   } from "react-router-dom";
-import { Nav } from './Nav';
-import { Banner } from './Banner';
-import { Footer } from './Footer';
-import { Container } from './Container';
-import { WebDevelopment } from './WebDevelopment'
-import { Art } from './Art'
+import { Nav } from './components/Nav';
+import { Banner } from './components/Banner';
+import { Container } from './components/Container';
+import { Footer } from './components/Footer';
 
 
   const App = () => {
@@ -20,7 +18,9 @@ import { Art } from './Art'
       <Router>
         <div className="App">
         
-        <img src="https://jessicabommerblog.files.wordpress.com/2017/02/original-1.jpg" className="img-background"/>  
+        {/* <img src="https://jessicabommerblog.files.wordpress.com/2017/02/original-1.jpg" className="img-background"/>  */}
+        <img src="../Assets/BannerPic.png" className="img-background"/>  
+
           
           <Nav/>
           <Banner/>
@@ -31,16 +31,10 @@ import { Art } from './Art'
               <Container/>
             </Route>
 
-            <Route exact-path="/webdevelopment">
-                <WebDevelopment/>
-            </Route>
+            </Switch>
 
-            <Route exact-path="/art">
-                <Art/>
-            </Route>
-
-          </Switch>
           <Footer/>
+          
         </div>
   
       </Router>
