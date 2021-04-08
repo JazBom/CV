@@ -33,6 +33,7 @@
   justify-content: center;
   margin: 0;
   background-color: white;
+  border-bottom: 2px solid slategrey;
   color: rgb(56,5,0);
   /* font-family: Georgia, 'Times New Roman', Times, serif; */
   
@@ -258,13 +259,14 @@ color:rgba(0,128,128,0.8);
 .row-2 h2 {
   color: darkslategray;
   font-size: 1rem;
+  text-align: center;
 }
 
 .row-2 .box-lists {
   min-height: 250px;
   width: 85%;
   margin: 0 auto;
-  border: 1px solid rgba(210, 215, 211, 0.8);
+  /* border: 1px solid rgba(210, 215, 211, 0.9); */
   background-color: slategrey;
   border-radius: 20px 0 20px 0;
   padding: 1% 0;
@@ -274,15 +276,13 @@ color:rgba(0,128,128,0.8);
 
 .row-2 .box-lists li {
   font-size: 1rem;
-  line-height: 1.2;
+  line-height: 1.5;
   color: azure;
   /* color: rgba(226, 214, 233, 1); */
   margin: 5% 5% 5% 10%;
 }
 
 .row-3 {
-  position: relative;
-  top: 0;
   min-height: 600px;
   width: 100%;
   margin: auto;
@@ -293,7 +293,7 @@ color:rgba(0,128,128,0.8);
   z-index: inherit;
 }
 
-.row-3 svg {
+.row-3 li {
   margin: auto 5%;
 }
 

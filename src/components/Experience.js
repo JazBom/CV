@@ -86,7 +86,7 @@ const Experience = () => {
                 <Card.Img variant="top" src="https://i.imgur.com/xBUKbZmt.png?3" />
                 <Card.Text>
                 <ul className="box-list no-bull">Achievements: 
-                    <li>Independently managed the switchboard and reception during a transmission shutdown.</li>
+                    <li>I independently managed the switchboard and reception during a transmission shutdown.</li>
                 </ul>
                 <ul className="box-list no-bull ">Role and dates: 
                     <li>Public Relations Officer - January 2007 to January 2009</li>
