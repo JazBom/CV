@@ -14,6 +14,7 @@ import {
 import { Nav } from './components/Nav';
 import { Banner } from './components/Banner';
 import { Container } from './components/Container';
+import { Art } from './components/Art';
 import { Footer } from './components/Footer';
 
 const App = () => {
@@ -33,7 +34,11 @@ const App = () => {
            
             <Switch>
 
-            <Route exact-path="/home">
+            <Route exact path="/art">
+              <Art/>
+            </Route>
+
+            <Route exact path="/">
               <Container/>
             </Route>
 

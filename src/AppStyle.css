@@ -353,10 +353,14 @@ color:rgba(0,128,128,0.8);
 
 .row-4-cards .card-body {
   text-align: center;
-  min-height: 400px;
+  min-height: 300px;
 }
 
-
+.row-4 a {
+  margin-bottom: 5%;
+  margin-top: 0;
+  font-size: 1.2rem;
+}
 
 .Footer {
   position: relative;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -21,9 +22,6 @@ const Experience = () => {
                     </ul>
                 </Card.Text>
             </Card.Body>
-            <Card.Footer>
-                <Button variant="primary">See more</Button>
-            </Card.Footer>
             </Card>
 
             <Card style={{ width: '20%' }}>
@@ -39,9 +37,6 @@ const Experience = () => {
                     </ul>
                 </Card.Text>
             </Card.Body>
-            <Card.Footer>
-                <Button variant="primary">See more</Button>
-            </Card.Footer>
             </Card>
 
             <Card style={{ width: '20%' }}>
@@ -57,9 +52,6 @@ const Experience = () => {
                 </ul>
                 </Card.Text>
             </Card.Body>
-            <Card.Footer>
-                <Button variant="primary">See more</Button>
-            </Card.Footer>
             </Card>
 
             <Card style={{ width: '20%' }}>
@@ -75,9 +67,6 @@ const Experience = () => {
                 </ul>
                 </Card.Text>
             </Card.Body>
-            <Card.Footer>
-                <Button variant="primary">See more</Button>
-            </Card.Footer>
             </Card>
 
             <Card style={{ width: '20%' }}>
@@ -93,13 +82,11 @@ const Experience = () => {
                 </ul>
                 </Card.Text>
             </Card.Body>
-            <Card.Footer>
-                <Button variant="primary">See more</Button>
-            </Card.Footer>
             </Card>
-
             </div>
-        </div>    
+            <a href={"../JessicaBommerCV.pdf"}>See more</a>
+        </div>  
+        
     </div>
     )
 };
