@@ -12,7 +12,7 @@ const Highlights = () => {
     <Card.Title><h2>Career highlights</h2></Card.Title>
     <Card.Text>
     <ul className="box-lists no-bull">
-    <li>Creating websites like this, which I built myself</li>
+    <li>Creating websites like this</li>
     <li>Living and working in China and Italy</li>
     <li>Successfully delivering NSW's Biosecurity Act</li>
     <li>Facilitating Victoria's access to water throughout the pandemic</li>

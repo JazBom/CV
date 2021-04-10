@@ -159,15 +159,15 @@
 }
 
 .banner .sub-header .first-word {
-  color: rgba(146, 118, 115, 1);
+  color: rgba(197, 61, 46, 1);
 }
 
 .banner .sub-header .second-word {
-color:rgba(0,128,128,0.8);
+color:rgba(0, 128, 128, 1);
 }
 
 .banner .sub-header .third-word {
-  color:rgba(79, 32, 102, 0.781);
+  color:rgba(79, 32, 102, 0.9);
   /* color:rgba(210, 223, 255, 1); */
   /* color: rgba(12, 173, 133, 0.5); */
   }
@@ -249,17 +249,16 @@ color:rgba(0,128,128,0.8);
   justify-content: center;
   margin: 0;
   padding: 2.5%;
+  background-color: white;
   z-index: inherit;
 }
-
-.row-2 {
-  background-color: white;
-}
-
 .row-2 h2 {
   color: darkslategray;
   font-size: 1rem;
   text-align: center;
+}
+.row-2 .card{
+  min-height: 250px;
 }
 
 .row-2 .box-lists {
