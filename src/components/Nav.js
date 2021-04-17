@@ -17,10 +17,8 @@ const Nav = () => {
 </ul>
 
 <ul className="nav-webdev no-bull">
-<li><Link to="/art">Projects</Link></li>
-
-<li><a href="https://www.linkedin.com/in/jessicabommer/"><FontAwesomeIcon icon={['fab', 'linkedin']} size="lg"/></a></li>
 <li><a href="https://github.com/JazBom"><FontAwesomeIcon icon={['fab', 'github']} size="lg"/></a></li>
+<li><a href="https://www.linkedin.com/in/jessicabommer/"><FontAwesomeIcon icon={['fab', 'linkedin']} size="lg"/></a></li>
 <li><a href="https://www.instagram.com/jessish_art/"><FontAwesomeIcon icon={['fab', 'instagram']} size="lg"/></a></li>
 <li><a href="https://www.jessicabommer.com"><FontAwesomeIcon icon="palette" size="lg"/></a></li>
 

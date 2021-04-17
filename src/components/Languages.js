@@ -26,6 +26,7 @@ const Languages = () => {
 
     <ul className="no-bull">
     <li><FontAwesomeIcon icon={['fab', 'react']} size="1x" color=""/> ReactJS</li>
+    <li><FontAwesomeIcon icon={['fab', 'heroku']} size="1x" color=""/> Heroku</li>
     </ul>
 
     <ul className="no-bull">  

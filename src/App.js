@@ -1,5 +1,3 @@
-
-
 import './AppStyle.css';
 import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -51,7 +49,6 @@ const App = () => {
               <Container/>
             </Route>
 
-            
             {/* <Route path="*">
               <AnimationApp/>
             </Route> */}
