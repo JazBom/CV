@@ -442,9 +442,14 @@ color:rgba(0, 128, 128, 1);
 
   .navigation {
     display: flex;
+    direction: row;
     min-width: 320px;
     max-width: 100%;
-    font-size: 0.5rem;
+  
+  }
+
+  .nav-contact li {
+    font-size: 0.8rem;
   }
 
   .nav-webdev {
@@ -453,12 +458,12 @@ color:rgba(0, 128, 128, 1);
   }
 
   .banner h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 3%;
     color: white;
   }
   .banner h2 {
-    font-size: 1.45rem;
+    font-size: 1.3rem;
     padding: 0;
     color: white;
 
