@@ -430,25 +430,31 @@ color:rgba(0, 128, 128, 1);
 }
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 568px) {
    .App, .container {
     width: 100%;
+  }
+
+  .App .img-background {
+    height: 100%;
+    width: auto;
   }
 
   .navigation {
     display: flex;
     min-width: 320px;
-    max-width: 420px;
+    max-width: 100%;
     font-size: 0.5rem;
   }
 
   .nav-webdev {
-    margin-right: 10%;
+    margin-right: 7%;
     padding: 0;
   }
 
   .banner h1 {
     font-size: 1.3rem;
+    padding: 3%;
     color: white;
   }
   .banner h2 {
@@ -510,12 +516,10 @@ color:rgba(0, 128, 128, 1);
     height: auto;
   }
 
-  .footer {
-    padding: 0;
-  } 
-  .footer p {
-    margin: 0 auto;
-  } 
+  .Footer svg {
+    z-index: inherit;
+    margin: 2%;
+  }  
 } 
 
 
