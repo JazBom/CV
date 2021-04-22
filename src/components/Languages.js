@@ -20,7 +20,8 @@ const Languages = () => {
 
     <ul className="no-bull">
     
-    <li><FontAwesomeIcon icon={['fab', 'node']} size="lg" color=""/> NodeJS & Express</li>   
+    <li><FontAwesomeIcon icon={['fab', 'node']} size="lg" color=""/> NodeJS</li> 
+    <li> Express</li>   
     <li><FontAwesomeIcon icon={['fab', 'parcel']} size="1x" color=""/> Parcel</li>  
     </ul>
 
@@ -30,16 +31,15 @@ const Languages = () => {
     </ul>
 
     <ul className="no-bull">  
-    <li><FontAwesomeIcon icon="gem" size="1x" color=""/> Ruby-on-Rails</li> 
-    </ul>
-
-     <ul className="no-bull teal">
+    <li><FontAwesomeIcon icon="gem" size="1x" color=""/> RubyOnRails</li> 
     <li><FontAwesomeIcon icon={['fab', 'php']} size="1x" color=""/> PHP</li> 
     <li><FontAwesomeIcon icon={['fab', 'wordpress']} size="1x" color=""/> Wordress</li>
     </ul>
 
     <ul className="no-bull">
-    <li><FontAwesomeIcon icon="database" size="1x" color=""/> SQL & NOSQL</li>
+    <li><FontAwesomeIcon icon="database" size="1x" color=""/> MySQL</li>
+    <li><FontAwesomeIcon icon="database" size="1x" color=""/> Postgres</li>
+    <li><FontAwesomeIcon icon="database" size="1x" color=""/> MongoDB</li>
     </ul> 
 
     <ul className="no-bull blue">

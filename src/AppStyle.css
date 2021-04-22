@@ -481,7 +481,7 @@ color:rgba(0, 128, 128, 1);
     border-radius: 0;
   }
  .row-1 li {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .highlights, .row-2, .row-4-cards {
     display: flex;
