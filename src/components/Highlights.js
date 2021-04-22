@@ -7,7 +7,7 @@ const Highlights = () => {
         <div className="highlights"> 
 
 <div className="row-2">
-<Card style={{ width: '30%' }}>
+<Card>
   <Card.Body>
     <Card.Title><h2>Career highlights</h2></Card.Title>
     <Card.Text>
@@ -23,7 +23,7 @@ const Highlights = () => {
   </Card.Footer>
 </Card>
 
-<Card style={{ width: '30%' }}>
+<Card>
   <Card.Body>
     <Card.Title><h2>Professional competencies</h2></Card.Title>
     <Card.Text>
@@ -39,7 +39,7 @@ const Highlights = () => {
   </Card.Footer>
 </Card>
 
-<Card style={{ width: '30%' }}>
+<Card>
   <Card.Body>
     <Card.Title><h2>Interests</h2></Card.Title>
     <Card.Text>

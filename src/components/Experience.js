@@ -9,7 +9,7 @@ const Experience = () => {
         <div className="row-4">
         <h1>Experience</h1>
             <div className="row-4-cards">
-            <Card style={{ width: '20%' }}>
+            <Card>
             <Card.Body>
                 <Card.Title className="teal"><h3>General Assembly (GA)</h3></Card.Title>
                 <Card.Img variant="top" src="https://i.imgur.com/SjINd9it.png?3" />
@@ -24,7 +24,7 @@ const Experience = () => {
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '20%' }}>
+            <Card>
             <Card.Body>
                 <Card.Title className="teal"><h3>Victorian Government</h3></Card.Title>
                 <Card.Img variant="top" src="https://i.imgur.com/i6ZWFmRt.png?1" />
@@ -39,7 +39,7 @@ const Experience = () => {
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '20%' }}>
+            <Card>
             <Card.Body>
                 <Card.Title className="teal"><h3>Florence Academy of Art</h3></Card.Title>
                 <Card.Img variant="top" src="https://i.imgur.com/xM9qVzrt.png?1" />
@@ -54,7 +54,7 @@ const Experience = () => {
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '20%' }}>
+            <Card>
             <Card.Body>
                 <Card.Title className="teal"><h3>NSW Government</h3></Card.Title>
                 <Card.Img variant="top" src="https://i.imgur.com/7tJZYPZt.png?1" />
@@ -69,7 +69,7 @@ const Experience = () => {
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '20%' }}>
+            <Card>
             <Card.Body>
                 <Card.Title className="teal"><h3>SBS Television</h3></Card.Title>
                 <Card.Img variant="top" src="https://i.imgur.com/xBUKbZmt.png?3" />

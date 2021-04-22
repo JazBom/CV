@@ -205,16 +205,6 @@ color:rgba(0, 128, 128, 1);
   color: darkslategray;
   /* color:rgba(79, 32, 102, 1); */
 }
-
-/* .languages-logos {
-  display: flex;
-  width: 85%;
-  height: auto;
-  margin: auto 0 auto auto;
-  padding: 0 0 0 auto;
-  background-color: white;
-} */
-
 .row-1 {
   display: flex;
   width: 100%;
@@ -225,7 +215,6 @@ color:rgba(0, 128, 128, 1);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-
 .row-1 ul {
   display: flex;
   flex-direction: column;
@@ -233,13 +222,16 @@ color:rgba(0, 128, 128, 1);
   padding: 1%;
   z-index: inherit;
 }
-
 .row-1 li {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.05rem;
   line-height: 1;
 }
 
+.highlights {
+  display: flex;
+  width: 100%;
+}
 .row-2 {
   position: relative;
   top: 0;
@@ -257,19 +249,20 @@ color:rgba(0, 128, 128, 1);
   font-size: 1rem;
   text-align: center;
 }
-.row-2 .card{
+.row-2 .card {
   min-height: 250px;
+  width: 30%;
 }
 
 .row-2 .box-lists {
   min-height: 250px;
   width: 85%;
   margin: 0 auto;
-  /* border: 1px solid rgba(210, 215, 211, 0.9); */
   background-color: slategrey;
   border-radius: 20px 0 20px 0;
   padding: 1% 0;
   z-index: inherit;
+   /* border: 1px solid rgba(210, 215, 211, 0.9); */
 }
 
 
@@ -342,6 +335,7 @@ color:rgba(0, 128, 128, 1);
 
 .row-4-cards .card {
   justify-content: space-evenly;
+  width: 20%;
 }
 
 .row-4-cards .card-title {
@@ -435,22 +429,97 @@ color:rgba(0, 128, 128, 1);
   list-style-type: none;
 }
 
-/* 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-   .App {
-    width: 270px;
+
+@media only screen and (max-width: 420px) {
+   .App, .container {
+    width: 100%;
   }
 
-  .WebDevelopment .Div-1 {
-    flex-flow: row wrap;
+  .navigation {
+    display: flex;
+    min-width: 320px;
+    max-width: 420px;
+    font-size: 0.5rem;
+  }
+
+  .nav-webdev {
+    margin-right: 10%;
+    padding: 0;
+  }
+
+  .banner h1 {
+    font-size: 1.3rem;
+    color: white;
+  }
+  .banner h2 {
+    font-size: 1.45rem;
+    padding: 0;
+    color: white;
+
+  }
+  .banner .sub-header {
+    display: none;
+  }
+
+  .row-1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 175px;
+    width: 100%;
+    border-radius: 0;
+  }
+ .row-1 li {
+    font-size: 1rem;
+  }
+  .highlights, .row-2, .row-4-cards {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     margin: 0 auto;
     font-size: 0.7rem;
   }
+
+  .row-2 .card, .row-4 .card, .row-4 .card-body {
+    min-height: 250px;
+    width: 100%;
+    padding: 2.5%;
+  }
+
+ .card-body {
+  width: 100%;
+  }
+  .row-3 {
+    position: relative;
+    top: 45px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  .row-3 li {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 auto;
+  }
+
+  .row-4-cards img {
+    width: 50px;
+    height: auto;
+  }
+
+  .footer {
+    padding: 0;
+  } 
+  .footer p {
+    margin: 0 auto;
+  } 
 } 
 
 
-  @media only screen and (max-width: 480px) {
+  /* @media only screen and (max-width: 480px) {
     body {
       font-size: 12px;
     }
@@ -494,7 +563,7 @@ color:rgba(0, 128, 128, 1);
   .main {
     padding-top: 0;
   }
-}  */
+}   */
 /* 
 .competencies .box-lists {
   background-color: rgba(243, 241, 247, 0.4);
