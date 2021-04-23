@@ -17,7 +17,7 @@
   background-attachment: fixed;
   background-size: cover;
   top: 0;
-  right: 0;
+  right: -10px;
   display: block;
   width: 200%;
   height: auto;
@@ -33,7 +33,7 @@
   justify-content: center;
   margin: 0;
   background-color: white;
-  border-bottom: 2px solid slategrey;
+  border-bottom: 2px solid white;
   color: rgb(56,5,0);
   /* font-family: Georgia, 'Times New Roman', Times, serif; */
   
@@ -60,14 +60,13 @@
 }
 .nav-contact li {
   padding: 0;
-  margin: 0 2% 0 0; 
+  margin: 0 0 0 2%; 
   z-index: inherit;
 }
 
 .nav-webdev {
   position: relative;
   right: 0;
-  justify-content: space-evenly;
   z-index: inherit;
   display: flex;
   font-size: 0.9rem;
@@ -80,6 +79,7 @@
 }
 
 .homeButton {
+  display: none;
   float: left;
   position: relative;
   top: 0;
@@ -174,7 +174,7 @@ color:rgba(0, 128, 128, 1);
 
 .container {
   position: relative;
-  top: 50px;
+  top: 45px;
   left: 0;
   width: 100%;
   min-height: 840px;
@@ -441,23 +441,22 @@ color:rgba(0, 128, 128, 1);
   }
 
   .container {
-    border-radius: 0;
+    position: relative;
+  top: 45px;
+  border-radius: 0;
+
   }
   .navigation {
     display: flex;
     direction: row;
     min-width: 320px;
     max-width: 100%;
-  
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .nav-contact li {
     font-size: 0.8rem;
-  }
-
-  .nav-webdev {
-    margin-right: 7%;
-    padding: 0;
   }
 
   .banner h1 {
