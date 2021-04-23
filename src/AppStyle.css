@@ -440,6 +440,9 @@ color:rgba(0, 128, 128, 1);
     width: auto;
   }
 
+  .container {
+    border-radius: 0;
+  }
   .navigation {
     display: flex;
     direction: row;
