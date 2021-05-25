@@ -33,7 +33,6 @@ const Languages = () => {
     <ul className="no-bull">  
     <li><FontAwesomeIcon icon="gem" size="1x" color=""/> RubyOnRails</li> 
     <li><FontAwesomeIcon icon={['fab', 'php']} size="1x" color=""/> PHP</li> 
-    <li><FontAwesomeIcon icon={['fab', 'wordpress']} size="1x" color=""/> Wordress</li>
     </ul>
 
     <ul className="no-bull">
